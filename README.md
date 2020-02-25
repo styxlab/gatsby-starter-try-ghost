@@ -34,7 +34,21 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
     cd try-ghost
     ```
 
-3.  Change the Ghost content API keys in file `.ghost.json`
+3. Run
+
+    ```bash
+    gatsby develop
+    ```
+    and visit your site at `http://localhost:8000`.
+
+## Configure `siteConfig.js`
+
+Update at least `siteUrl`.
+
+
+## Configure the Ghost content API keys in file `.ghost.json`
+
+If you want to source content from your own Ghost CMS, you need to change the keys to match yours:
 
     ```bash
     {
@@ -47,15 +61,7 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
             "contentApiKey": "9fccdb0e4ea5b572e2e5b92942"
         }
     }
-
     ```
-
-4. Run
-
-    ```bash
-    gatsby develop
-    ```
-    and visit your site at `http://localhost:8000`.
 
 
 # Copyright & License
