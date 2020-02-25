@@ -34,7 +34,7 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
     cd try-ghost
     ```
 
-3  Change the Ghost content API keys in file `.ghost.json`
+3.  Change the Ghost content API keys in file `.ghost.json`
 
     ```bash
     {
@@ -56,8 +56,6 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
     gatsby develop
     ```
     and visit your site at `http://localhost:8000`.
-
-## Configuration
 
 
 # Copyright & License
