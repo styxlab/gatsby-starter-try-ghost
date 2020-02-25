@@ -12,35 +12,36 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
 
 ## Features
 
-- Casper v3 skin and functionality
-- sticky navigation headers
-- hover on author avatar
-- styled 404 page
+- Ghost Casper skin and functionality
+- Sticky navigation headers
+- Hover on author avatar
+- Styled 404 page
 - SEO optimized
-- fully responsive
-- composable and extensible
+- Fully responsive
+- Composable and extensible
 
+## Getting Started
 
-## Quick Start
+1. Install this starter by running
 
-Head over to the [starter repo](https://github.com/styxlab/gatsby-starter-try-ghost) to get up and running quickly! The starter is recommended if you are creating a new site.
+    ```bash
+    gatsby new try-ghost https://github.com/styxlab/gatsby-starter-try-ghost
+    ```
 
+2. Change directory
 
-## Installation
+    ```bash
+    cd try-ghost
+    ```
 
-This repository contains the example code **and** the Gatsby theme. If you are here to install the Gatsby theme plugin in your existing project, check out the [theme specific README](/gatsby-theme-try-ghost/README.md) for further details.
+3. Run
 
-In case you want to work with this repository (for local development, pull requests, etc.):
+    ```bash
+    gatsby develop
+    ```
+    and vsit your siteon `localhost:8000`.
 
-1. Clone or fork this repository:
-```bash
-git clone https://github.com/styxlab/gatsby-theme-try-ghost.git
-cd gatsby-theme-try-ghost
-```
-
-2. Run `yarn` to install dependencies.
-
-3. Run `yarn workspace try-ghost develop` to start the example locally.
+## Configuration
 
 
 # Copyright & License
