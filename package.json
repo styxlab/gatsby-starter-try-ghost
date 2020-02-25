@@ -1,14 +1,11 @@
 {
-  "private": true,
-  "name": "try-ghost",
+  "name": "gatsby-starter-try-ghost",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master -r git@github.com:styxlab/styxlab.github.io"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -22,7 +19,7 @@
   },
   "dependencies": {
     "gatsby": "^2.19.19",
-    "gatsby-theme-try-ghost": "*",
+    "gatsby-theme-try-ghost": "^1.0.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
