@@ -34,7 +34,23 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
     cd try-ghost
     ```
 
-3. Run
+3  Change the Ghost content API keys in file `.ghost.json`
+
+    ```bash
+    {
+        "development": {
+            "apiUrl": "http://localhost:2368",
+            "contentApiKey": "9fccdb0e4ea5b572e2e5b92942"
+        },
+        "production": {
+            "apiUrl": "http://localhost:2368",
+            "contentApiKey": "9fccdb0e4ea5b572e2e5b92942"
+        }
+    }
+
+    ```
+
+4. Run
 
     ```bash
     gatsby develop
