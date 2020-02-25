@@ -39,7 +39,7 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
     ```bash
     gatsby develop
     ```
-    and vsit your siteon `localhost:8000`.
+    and vsit your site at `http://localhost:8000`.
 
 ## Configuration
 
