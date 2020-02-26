@@ -5,7 +5,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "config": "git update-index --skip-worktree .ghost.json"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
