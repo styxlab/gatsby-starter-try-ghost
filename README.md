@@ -15,6 +15,7 @@ Play with the [Demo](https://styxlab.github.io) to get a first impression.
 - Ghost Casper skin and functionality
 - Sticky navigation headers
 - Hover on author avatar
+- Secondary navigation
 - Styled 404 page
 - SEO optimized
 - Fully responsive
