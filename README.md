@@ -7,9 +7,11 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 ## Demo
 
-Play with the [Demo](https://styxlab.github.io) to get a first impression.
+>Play with the [Demo](https://styxlab.github.io) to get a first impression.
 
-![gatsby-starter-try-ghost](https://atmolabs.org/content/images/ghost-screenshot.jpg)
+&nbsp;
+
+[![gatsby-starter-try-ghost](https://atmolabs.org/content/images/ghost-screenshot.jpg)](https://styxlab.github.io) 
 
 &nbsp;
 
