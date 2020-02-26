@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "http://localhost:2368",
+    "contentApiKey": "<key>"
+  },
+  "production": {
+    "apiUrl": "http://localhost:2368",
+    "contentApiKey": "<key>"
+  }
+}
