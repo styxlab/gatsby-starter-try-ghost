@@ -58,6 +58,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.ghost.json
 
 # IDE
 .idea/*
