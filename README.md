@@ -2,7 +2,7 @@
 
 A Gatsby starter for creating blogs from headless Ghost CMS. 
 
-Turn your Ghost blog into a lightning fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring the standard Ghost Casper 3 skin and functionality. All content is sourced from a headless Ghost CMS.
+Turn your Ghost blog into a lightning fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring the standard Ghost Casper skin and functionality. All content is sourced from a headless Ghost CMS.
 
 
 ## Demo
@@ -18,6 +18,8 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 ## Features
 
 - Ghost Casper skin and functionality
+- Syntax highlighting with PrismJS (**NEW**)
+- Rewrite CMS links to relative (**NEW**)
 - Sticky navigation headers
 - Hover on author avatar
 - Secondary navigation
@@ -48,9 +50,10 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
     ```
     and visit your site at `http://localhost:8000`.
 
-## Configure `siteConfig.js`
+## Configure
 
 ```js
+    //siteConfig.js
     module.exports = {
         siteUrl: `https://your-blog.com`, // Do not include a trailing slash!
     
