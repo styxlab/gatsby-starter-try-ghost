@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-try-ghost",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -13,14 +13,14 @@
     "eslint": "^6.8.0",
     "eslint-plugin-ghost": "^1.0.0",
     "eslint-plugin-react": "^7.19.0",
-    "gatsby": "^2.19.32",
+    "gatsby": "^2.19.39",
     "gh-pages": "^2.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
   "dependencies": {
-    "gatsby": "^2.19.32",
-    "gatsby-theme-try-ghost": "^1.1.2",
+    "gatsby": "^2.19.39",
+    "gatsby-theme-try-ghost": "^1.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
