@@ -29,6 +29,10 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 - Fully responsive
 - Composable and extensible
 
+## Performance
+
+![Lighthouse Score](https://cms.gotsby.org/content/images/gotsby-lighthouse.png)
+
 
 ## Getting Started
 
