@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "gatsby": "^2.19.39",
-    "gatsby-theme-try-ghost": "^1.0.5",
+    "gatsby-theme-try-ghost": "^1.1.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
