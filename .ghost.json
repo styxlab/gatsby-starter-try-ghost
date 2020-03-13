@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://cms.gotsby.org",
+    "contentApiKey": "387f956eaa95345f7bb484d0b8"
+  },
+  "production": {
+    "apiUrl": "https://cms.gotsby.org",
+    "contentApiKey": "387f956eaa95345f7bb484d0b8"
+  }
+}
