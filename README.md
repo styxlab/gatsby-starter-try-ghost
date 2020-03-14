@@ -106,6 +106,9 @@ All content is sourced from a Ghost CMS. If you don't customize the file `.ghost
 
 After completion of the build process your static site can be found in the `public/` folder. Copy those files over to your webserver.
 
+## Deploying on Gatsby Cloud
+
+Fork `gatsby-starter-try-ghost` in GitHub. After logging into Gatsby Cloud make sure Gatsby Cloud has access rights to the forked repository. Select 'I already have a Gatsby Site' and then pick `gatsby-starter-try-ghost`. Skip integrations. For a first test also skip content keys. The build should start immediately and show the demo site. Provide content keys in order to source in your own Ghost content.
 
 ## Optimizing
 
