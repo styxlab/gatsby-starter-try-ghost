@@ -114,6 +114,9 @@ Fork `gatsby-starter-try-ghost` in GitHub. After logging into Gatsby Cloud make 
 
 You can disable the default Ghost Handlebars theme front-end by enabling the `Make this site private` flag within your Ghost settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
 
+## Reporting issues
+
+Please report all bugs and issues at [gatsby-theme-try-ghost/issues](https://github.com/styxlab/gatsby-theme-try-ghost/issues) as all development is happening there.
 
 # Copyright & License
 
