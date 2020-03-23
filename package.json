@@ -9,10 +9,10 @@
     "config": "git update-index --skip-worktree .ghost.json"
   },
   "dependencies": {
-    "gatsby": "^2.19.45",
-    "gatsby-theme-try-ghost": "^1.2.11",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "gatsby": "^2.20.3",
+    "gatsby-theme-try-ghost": "^1.2.13",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
