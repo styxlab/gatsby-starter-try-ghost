@@ -29,9 +29,18 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 - Fully responsive
 - Composable and extensible
 
+
 ## Performance
 
 ![Lighthouse Score](https://cms.gotsby.org/content/images/gotsby-lighthouse.png)
+
+
+## Addons
+
+Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with this repository:
+
+ - Contact page with [gatsby-theme-ghost-contact](https://github.com/styxlab/gatsby-theme-ghost-contact)
+ - Site tracking with [Ackee](https://github.com/burnsy/gatsby-plugin-ackee-tracker)
 
 
 ## Getting Started
