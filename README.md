@@ -41,7 +41,7 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with this repository:
 
- - Contact page with [gatsby-theme-ghost-contact](https://github.com/styxlab/gatsby-theme-ghost-contact)
+ - Contact page with [gatsby-theme-ghost-contact](https://github.com/styxlab/gatsby-theme-ghost-contact) :new:
  - Site tracking with [Ackee](https://github.com/burnsy/gatsby-plugin-ackee-tracker)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-try-ghost",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gatsby": "^2.20.4",
-    "gatsby-theme-try-ghost": "^1.2.14",
+    "gatsby-theme-try-ghost": "^1.2.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
