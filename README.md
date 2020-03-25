@@ -36,12 +36,20 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 ![Lighthouse Score](https://cms.gotsby.org/content/images/gotsby-lighthouse.png)
 
+## Included Addons
 
-## Addons
+The following addons have been included for conveniance:
+
+ - Rewrite CMS links to relative with [gatsby-rehype-ghost-links](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-rehype-ghost-links)
+ - Syntax highlighting with [gatsby-rehype-prismjs](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-rehype-prismjs)  :new:
+ 
+If you don't need them, you can take them out which may save you some time during the build process.
+
+## More Addons
 
 Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with this repository:
 
- - Contact page with [gatsby-theme-ghost-contact](https://github.com/styxlab/gatsby-theme-ghost-contact) :new:
+ - Contact page with [gatsby-theme-ghost-contact](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-contact) :new:
  - Site tracking with [Ackee](https://github.com/burnsy/gatsby-plugin-ackee-tracker)
 
 
@@ -71,20 +79,24 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
 ```js
     //siteConfig.js
     module.exports = {
-        siteUrl: `https://your-blog.com`, // Do not include a trailing slash!
+        // Do not include a trailing slash!
+        siteUrl: `https://your-blog.com`, 
     
-        postsPerPage: 12, //for future use
+        // This allows an alternative site title for meta data for pages.
+        siteTitleMeta: `Gatsby Starter Ghost CMS`, 
+
+        // This allows an site description for meta data for pages.
+        siteDescriptionMeta: `Gastby Starter with Ghost CMS and Casper Skin`, 
     
-        siteTitleMeta: `Gatsby Starter Ghost CMS`, // This allows an alternative site title for meta data for pages.
-        siteDescriptionMeta: `Gastby Starter with Ghost CMS and Casper Skin`, // This allows an site description for meta data for pages.
+        // Change to the width and height of your default share image
+        shareImageWidth: 1000, 
+        shareImageHeight: 523,
     
-        shareImageWidth: 1000, // Change to the width of your default share image
-        shareImageHeight: 523, // Change to the height of your default share image
-    
-        shortTitle: `Ghost`, // Used for App manifest e.g. Mobile Home Screen
-        siteIcon: `favicon.png`, // Logo in /static dir used for SEO, RSS, and App manifest
-        backgroundColor: `#e9e9e9`, // Used for Offline Manifest
-        themeColor: `#15171A`, // Used for Offline Manifest
+        // Used for App and Offline manifest e.g. Mobile Home Screen
+        shortTitle: `Ghost`, 
+        siteIcon: `favicon.png`, 
+        backgroundColor: `#e9e9e9`,
+        themeColor: `#15171A`,
     }
 ```
 

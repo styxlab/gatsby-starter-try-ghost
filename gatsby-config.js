@@ -29,9 +29,30 @@ try {
 }
 
 module.exports = {
-    plugins: [{ resolve: `gatsby-theme-try-ghost`,
-        options: {
-            ghostConfig: ghostConfig,
-            siteConfig: siteConfig,
-        } }],
+    plugins: [
+        {
+            resolve: `gatsby-theme-try-ghost`,
+            options: {
+                ghostConfig: ghostConfig,
+                siteConfig: siteConfig,
+            },
+        },
+        {
+            resolve: `gatsby-transformer-rehype`,
+            options: {
+                filter: node => (
+                    node.internal.type === `GhostPost` ||
+                    node.internal.type === `GhostPage`
+                ) && node.slug !== `data-schema`,
+                plugins: [
+                    {
+                        resolve: `gatsby-rehype-ghost-links`,
+                    },
+                    {
+                        resolve: `gatsby-rehype-prismjs`,
+                    },
+                ],
+            },
+        },
+    ],
 }
