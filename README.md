@@ -21,7 +21,7 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 - Ghost Casper look and feel
 - Sticky navigation headers
-- [Gatsby images](https://using-gatsby-image.gatsbyjs.org/) :rocket: :new:
+- [Gatsby images](https://using-gatsby-image.gatsbyjs.org/) *NEW*
 - Syntax highlighting with PrismJS :new:
 - Rewrite CMS links to relative :new:
 - Hover on author avatar
@@ -40,10 +40,11 @@ Turn your Ghost blog into a lightning fast static website. This Gatsby theme is 
 
 The following addons have been included for convenience:
 
+ - Dark mode toggle with [gatsby-theme-ghost-dark-mode](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-dark-mode) *NEW*
  - Rewrite CMS links to relative with [gatsby-rehype-ghost-links](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-rehype-ghost-links)
- - Syntax highlighting with [gatsby-rehype-prismjs](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-rehype-prismjs)  :new:
+ - Syntax highlighting with [gatsby-rehype-prismjs](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-rehype-prismjs)
  
-If you don't need them, you can take them out which may save you some time during the build process.
+If you don't need them, you can take them out in `gatsby-config.js` and `package.json` which may save you some time during the build process.
 
 ## More Addons
 
