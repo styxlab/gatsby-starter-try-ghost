@@ -130,11 +130,11 @@ After completion of the build process your static site can be found in the `publ
 
 ## Deploying on Gatsby Cloud
 
-Fork `gatsby-starter-try-ghost` in GitHub. After logging into Gatsby Cloud make sure Gatsby Cloud has access rights to the forked repository. Select 'I already have a Gatsby Site' and then pick `gatsby-starter-try-ghost`. Skip integrations. For a first test also skip content keys. The build should start immediately and show the demo site. Provide content keys in order to source in your own Ghost content.
+Fork `gatsby-starter-try-ghost` in GitHub. After logging into Gatsby Cloud make sure Gatsby Cloud has access rights to your forked repository. Select *I already have a Gatsby Site* and then pick *gatsby-starter-try-ghost*. Skip integrations. For a first test also skip content keys. The build should start immediately and show the demo site. Provide content keys in order to source in your own content from Ghost CMS.
 
-## Optimizing
+## Ensure headless mode of Ghost CMS
 
-You can disable the default Ghost Handlebars theme front-end by enabling the `Make this site private` flag within your Ghost settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
+For good SEO results it is strongly recommended to disable the default Ghost Handlebars theme front-end by selecting the *Make this site private* flag within your Ghost admin settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
 
 ## Reporting issues
 
