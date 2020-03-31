@@ -49,6 +49,7 @@ If you don't need them, you can take them out in `gatsby-config.js` and `package
 Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with this repository:
 
  - Contact page with [gatsby-theme-ghost-contact](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-contact) **NEW**
+ - Commenting system with [gatsby-theme-ghost-commento](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-commento) **NEW**
  - Site tracking with [Ackee](https://github.com/burnsy/gatsby-plugin-ackee-tracker)
 
 
