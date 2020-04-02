@@ -4,7 +4,7 @@ module.exports = {
     "contentApiKey": "1e36699cfc57f6a62d68b7aa9b",
   },
   "production": {
-    "apiUrl": "hhttps://webmeupdigital.com",
+    "apiUrl": "https://webmeupdigital.com",
     "contentApiKey": "1e36699cfc57f6a62d68b7aa9b",
   },
 }
