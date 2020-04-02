@@ -1,10 +1,10 @@
 module.exports = {
   "development": {
-    "apiUrl": "http://157.230.42.129",
-    "contentApiKey": "4e2505cab3d27a0c2a0015ed25",
+    "apiUrl": "https://webmeupdigital.com",
+    "contentApiKey": "1e36699cfc57f6a62d68b7aa9b",
   },
   "production": {
-    "apiUrl": "http://157.230.42.129",
-    "contentApiKey": "4e2505cab3d27a0c2a0015ed25",
+    "apiUrl": "hhttps://webmeupdigital.com",
+    "contentApiKey": "1e36699cfc57f6a62d68b7aa9b",
   },
 }
