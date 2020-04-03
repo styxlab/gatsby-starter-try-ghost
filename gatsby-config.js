@@ -30,7 +30,6 @@ try {
 
 module.exports = {
     plugins: [
-        `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-theme-try-ghost`,
             options: {
@@ -72,6 +71,9 @@ module.exports = {
                             includeInDevelopment: false,
                             defaultDataLayer: { platform: "gatsby"},
                         },
+                    },
+                    {
+                        resolve: `gatsby-plugin-react-helmet`,
                     },
                 ],
             },
