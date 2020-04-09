@@ -20,8 +20,9 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 ## Features
 
 - Ghost Casper look and feel
+- Infinite Scroll ✨ **NEW**
+- [Gatsby images](https://using-gatsby-image.gatsbyjs.org/) 🚀 **NEW**
 - Sticky navigation headers
-- [Gatsby images](https://using-gatsby-image.gatsbyjs.org/) **NEW**
 - Hover on author avatar
 - Styled 404 page
 - SEO optimized
@@ -38,7 +39,7 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 
 The following addons have been included for convenience:
 
- - Dark mode toggle with [gatsby-theme-ghost-dark-mode](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-dark-mode) **NEW**
+ - Dark mode toggle with [gatsby-theme-ghost-dark-mode](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-dark-mode) 🌗 **NEW**
  - Rewrite CMS links to relative with [gatsby-rehype-ghost-links](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-rehype-ghost-links)
  - Syntax highlighting with [gatsby-rehype-prismjs](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-rehype-prismjs)
  
@@ -83,7 +84,8 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
         siteUrl: `https://your-blog.com`,
 
         // Maximum number of post shown per page
-        postsPerPage: 25, 
+        // With Infinite Scroll this is the chunk of posts fetched when scrolling down
+        postsPerPage: 3, 
     
         // This allows an alternative site title for meta data for pages.
         siteTitleMeta: `Gatsby Starter Ghost CMS`, 
