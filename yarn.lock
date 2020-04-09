@@ -6062,10 +6062,10 @@ gatsby-theme-ghost-dark-mode@^1.0.6:
   dependencies:
     "@babel/runtime" "^7.9.2"
 
-gatsby-theme-try-ghost@^1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.6.3.tgz#e987f154b50bd601c3f2f2451de49d0868cb51af"
-  integrity sha512-JydpDtnshmQL08JA5lsi+TEEA8mZvWGaIk2mrULg+wB8V2WEaDJpOlq5YXnrUglZeuYHQ8bolxdCKUZ6NG8gxw==
+gatsby-theme-try-ghost@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.7.1.tgz#20cb1060736c8dcb424ca43a2b3c394940a97daf"
+  integrity sha512-YVVNcSx919t9937d8peSCUUpJPPykfAwFGl0ayPQqTfCP7W8qwJTeLd6Vj2y0+4X+R3LHYg8dgtIQPOTW0WSBw==
   dependencies:
     "@tryghost/helpers" "^1.1.25"
     "@tryghost/url-utils" "^0.6.17"
@@ -6097,6 +6097,7 @@ gatsby-theme-try-ghost@^1.6.3:
     postcss-custom-properties "^9.1.1"
     postcss-easy-import "^3.0.0"
     react-helmet "^5.2.1"
+    react-icons "^3.9.0"
     styled-components "^5.1.0"
 
 gatsby-transformer-rehype@^1.1.4:
@@ -6124,10 +6125,10 @@ gatsby-transformer-sharp@^2.4.4:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby@^2.20.13:
-  version "2.20.13"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.13.tgz#e6b44e6e3ecf5f6a5c3e55f25f2097678a7db3a1"
-  integrity sha512-hPzmHSWhInIlY4Lg6hSrFlCxcITCsTs9QM5OhmmFtWDVY3fAr/MsVH1NVZJuY+rTFYtvk5hO284dOBMGcHtUww==
+gatsby@^2.20.15:
+  version "2.20.15"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.15.tgz#7f91baac059ad9eb1b0b384b2a38e2a7459742cd"
+  integrity sha512-sEAFCOC1MBPuBRMTtvMTrJmvbaUlAq5OMCxjpXbY+1wleObuHA9k3VGHT5F4G38Egj7EPc8fvyLACfDfWnDWOA==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.8.7"
@@ -11025,6 +11026,13 @@ react-hot-loader@^4.12.20:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
     source-map "^0.7.3"
+
+react-icons@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.9.0.tgz#89a00f20a0e02e6bfd899977eaf46eb4624239d5"
+  integrity sha512-gKbYKR+4QsD3PmIHLAM9TDDpnaTsr3XZeK1NTAb6WQQ+gxEdJ0xuCgLq0pxXdS7Utg2AIpcVhM1ut/jlDhcyNg==
+  dependencies:
+    camelcase "^5.0.0"
 
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"

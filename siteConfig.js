@@ -1,16 +1,24 @@
 module.exports = {
-    siteUrl: `https://styxlab.github.io`, // Site domain. Do not include a trailing slash!
+    // Do not include a trailing slash!
+    siteUrl: `https://styxlab.github.io`,
 
-    postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
+    // Maximum number of post shown per page
+    // With Infinite Scroll this is the chunk of posts fetched when scrolling down
+    postsPerPage: 3,
 
-    siteTitleMeta: `Gatsby Ghost Casper`, // This allows an alternative site title for meta data for pages.
-    siteDescriptionMeta: `Gastby with Ghost CMS and Casper Theme`, // This allows an alternative site description for meta data for pages.
+    // This allows an alternative site title for meta data for pages.
+    siteTitleMeta: `Gatsby Starter Ghost CMS`,
 
-    shareImageWidth: 1000, // Change to the width of your default share image
-    shareImageHeight: 523, // Change to the height of your default share image
+    // This allows an site description for meta data for pages.
+    siteDescriptionMeta: `Turn your Ghost blog into a flaring fast static site with Gatsby`,
 
-    shortTitle: `Ghost`, // Used for App manifest e.g. Mobile Home Screen
-    siteIcon: `favicon.png`, // Logo in /static dir used for SEO, RSS, and App manifest
-    backgroundColor: `#e9e9e9`, // Used for Offline Manifest
-    themeColor: `#15171A`, // Used for Offline Manifest
+    // Change to the width and height of your default share image
+    shareImageWidth: 1000,
+    shareImageHeight: 523,
+
+    // Used for App and Offline manifest e.g. Mobile Home Screen
+    shortTitle: `Jamify`,
+    siteIcon: `favicon.png`,
+    backgroundColor: `#e9e9e9`,
+    themeColor: `#15171A`,
 }
