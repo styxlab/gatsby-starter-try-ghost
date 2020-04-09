@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "gatsby": "^2.20.15",
+    "gatsby-plugin-ackee-tracker": "^1.2.0",
     "gatsby-rehype-ghost-links": "^1.2.0",
     "gatsby-rehype-prismjs": "^0.0.12",
     "gatsby-theme-ghost-dark-mode": "^1.0.6",
