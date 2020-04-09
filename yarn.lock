@@ -6076,10 +6076,10 @@ gatsby-theme-ghost-dark-mode@^1.0.6:
   dependencies:
     "@babel/runtime" "^7.9.2"
 
-gatsby-theme-try-ghost@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.7.2.tgz#b2a01ab7e3e41dde3383c09a8e2cbdf459aa7b92"
-  integrity sha512-Wj9izK5QCvs61FTbsfj0ev8I7fpa3EXNvrv5aOsLsp8PaoaRVuEqVi1xuV/ROD0N5MT6iNWgzKajmPxugwiSKA==
+gatsby-theme-try-ghost@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.7.3.tgz#133dd0ceb024de325fe6afb21bbdebfccc9462de"
+  integrity sha512-RKUf9Y65ElSQlKE17CqSfaG8GG5XOqFssOb916TcggkOBogX7B5vfOBBgNqA7Fdrv5fCgrgeGAWem1fCDSZWuA==
   dependencies:
     "@tryghost/helpers" "^1.1.25"
     "@tryghost/url-utils" "^0.6.17"
