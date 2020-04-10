@@ -6,19 +6,20 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "config": "git update-index --skip-worktree .ghost.json"
+    "config": "git update-index --skip-worktree .ghost.json",
+    "deploy": "gatsby build && gh-pages -d public -b master -r git@github.com:styxlab/styxlab.github.io"
   },
   "dependencies": {
-    "gatsby": "^2.20.12",
+    "gatsby": "^2.20.15",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-google-tagmanager": "^2.2.1",
     "gatsby-rehype-ghost-links": "^1.1.2",
     "gatsby-rehype-prismjs": "^0.0.12",
-    "gatsby-theme-ghost-dark-mode": "^1.0.5",
+    "gatsby-theme-ghost-dark-mode": "^1.0.6",
     "gatsby-theme-try-ghost": "^1.7.3",
     "gatsby-transformer-rehype": "^1.1.4",
     "gatsby-plugin-react-helmet": "3.2.1",
-    "prismjs": "^1.19.0",
+    "prismjs": "^1.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
