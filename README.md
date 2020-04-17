@@ -49,7 +49,7 @@ If you don't need them, you can take them out in `gatsby-config.js` and `package
 
 ## More Addons
 
-Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with this repository:
+Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with [`gatsby-starter-try-ghost`](https://github.com/styxlab/gatsby-starter-try-ghost):
 
  | Name                                                                                                                          | Version                                                                                                                                                                        | Description                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
