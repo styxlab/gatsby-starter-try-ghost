@@ -35,9 +35,9 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 
 ![Lighthouse Score](https://static.gotsby.org/v1/assets/images/jamify-lighthouse.png)
 
-## Included Addons
+## Included Plugins
 
-The following addons have been included for convenience:
+The following plugins have been included for convenience:
 
 | Name | Version | Description |   
 | ---- | ------- | ----------- |
@@ -49,7 +49,7 @@ The following addons have been included for convenience:
 If you don't need them, you can take them out in `gatsby-config.js` and `package.json` which may save you some time during the build process.
 
 
-## More Addons
+## More Plugins
 
 Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with [`gatsby-starter-try-ghost`](https://github.com/styxlab/gatsby-starter-try-ghost):
 
@@ -59,7 +59,7 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
 | [`gatsby-theme-ghost-commento`](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-commento) 🆕 | [![version](https://badgen.net/npm/v/gatsby-theme-ghost-commento)](https://www.npmjs.com/package/gatsby-theme-ghost-commento) | Commenting system with [Commento](https://commento.io/) |
 | [`gatsby-theme-ghost-toc`](https://github.com/styxlab/gatsby-theme-try-ghost/tree/master/packages/gatsby-theme-ghost-toc) 🆕 | [![version](https://badgen.net/npm/v/gatsby-theme-ghost-toc)](https://www.npmjs.com/package/gatsby-theme-ghost-toc) | Table of Contents |
 | [`gatsby-plugin-ackee-tracker`](https://github.com/burnsy/gatsby-plugin-ackee-tracker) | [![version](https://badgen.net/npm/v/gatsby-plugin-ackee-tracker)](https://www.npmjs.com/package/gatsby-plugin-ackee-tracker) | Site tracking with [Ackee](https://github.com/electerious/Ackee) |
-| [`gatsby-plugin-google-analytics`](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-analytics) | [![version](https://badgen.net/npm/v/gatsby-plugin-google-analytics)](https://www.npmjs.com/package/gatsby-plugin-google-analytics) | [Google Analytics](https://developers.google.com/analytics) |
+| [`gatsby-plugin-google-analytics`](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-analytics) | [![version](https://badgen.net/npm/v/gatsby-plugin-google-analytics)](https://www.npmjs.com/package/gatsby-plugin-google-analytics) | Site tracking with [Google Analytics](https://developers.google.com/analytics) |
 
 
 ## Getting Started
