@@ -118,7 +118,7 @@ In the configuration shown above, the most important fields to be changed are `s
 
 ## Ghost Content API keys
 
-All content is sourced from a Ghost CMS. If you don't customize the file `.ghost.json` content is fetched from the demo location at `https://cms.gotsby.org`. Surely you want to source your own content. Change the keys to match your own Ghost CMS Content API keys:
+All content is sourced from a Ghost CMS. By default, content is fetched from the demo location at `https://cms.gotsby.org`. Surely you want to source your own content. Add a new file `.ghost.json` to the base directory of this starter that contains the following JSON structure:
 
 ```bash
 
@@ -134,6 +134,8 @@ All content is sourced from a Ghost CMS. If you don't customize the file `.ghost
     }
 ```
 
+Change the url and keys to match your own Ghost CMS Content API keys.
+
 ## Deploy
 
 ```bash
@@ -142,7 +144,7 @@ All content is sourced from a Ghost CMS. If you don't customize the file `.ghost
 
 After completion of the build process your static site can be found in the `public/` folder. Copy those files over to your webserver.
 
-## Deploying on Gatsby Cloud
+## Deploy on Gatsby Cloud
 
 Fork `gatsby-starter-try-ghost` in GitHub. After logging into Gatsby Cloud make sure Gatsby Cloud has access rights to your forked repository. Select *I already have a Gatsby Site* and then pick *gatsby-starter-try-ghost*. Skip integrations. For a first test also skip content keys. The build should start immediately and show the demo site. Provide content keys in order to source in your own content from Ghost CMS.
 
