@@ -118,7 +118,7 @@ In the configuration shown above, the most important fields to be changed are `s
 
 ## Ghost Content API keys
 
-All content is sourced from a Ghost CMS. By default, content is fetched from the demo location at `https://cms.gotsby.org`. Surely you want to source your own content. Add a new file `.ghost.json` to the base directory of this starter that contains the following JSON structure:
+All content is sourced from a Ghost CMS. By default, content is fetched from the demo location at `https://cms.gotsby.org`. Surely you want to source your own content. In your base directory `try-ghost`, add a new file `.ghost.json` that contains the following JSON structure:
 
 ```bash
 
@@ -150,7 +150,7 @@ Fork `gatsby-starter-try-ghost` in GitHub. After logging into Gatsby Cloud make 
 
 ## Ensure headless mode of Ghost CMS
 
-For best SEO results it is strongly recommended to disable the default Ghost Handlebars theme front-end by selecting the *Make this site private* flag within your Ghost admin settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the source of truth for SEO.
+For best SEO results it is strongly recommended to disable the default Ghost Handlebars theme front-end by selecting the *Make this site private* flag within your Ghost admin settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the authoritative source for search engines.
 
 ## Reporting issues
 
