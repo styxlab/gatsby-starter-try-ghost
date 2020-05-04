@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://cms-jamify.gotsby.org",
+    "contentApiKey": "e5e630bdbbf0a09dd0f7980c84"
+  },
+  "production": {
+    "apiUrl": "https://cms-jamify.gotsby.org",
+    "contentApiKey": "e5e630bdbbf0a09dd0f7980c84"
+  }
+}

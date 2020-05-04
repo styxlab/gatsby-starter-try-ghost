@@ -92,7 +92,7 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
         siteUrl: `https://your-blog.com`,
 
         // Maximum number of post shown per page
-        // With Infinite Scroll this is the chunk of posts fetched when scrolling down
+        // Infinite Scroll: Initial chunk of posts, subsequent posts are fetched one by one
         postsPerPage: 3, 
     
         // This allows an alternative site title for meta data for pages.
