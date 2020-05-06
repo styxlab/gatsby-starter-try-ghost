@@ -1,10 +1,17 @@
 let siteConfig
 let ghostConfig
+let routesConfig
 
 try {
     siteConfig = require(`./siteConfig`)
 } catch (e) {
     siteConfig = null
+}
+
+try {
+    routesConfig = require(`./routesConfig`)
+} catch (e) {
+    routesConfig = null
 }
 
 try {
@@ -35,6 +42,7 @@ module.exports = {
             options: {
                 ghostConfig: ghostConfig,
                 siteConfig: siteConfig,
+                routes: routesConfig,
             },
         },
         {
