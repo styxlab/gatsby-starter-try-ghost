@@ -7,6 +7,11 @@ A Gatsby starter for creating blogs from headless [Ghost CMS](https://ghost.org/
 Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring the standard Ghost Casper skin and functionality. All content is sourced from a headless Ghost CMS.
 
 
+## Tutorials ✨ 🆕
+
+>Check out the [Tutorials](https://www.jamify.org) for practical guides on using this project.
+
+
 ## Demo
 
 >Play with the [Demo](https://styxlab.github.io) to get a first impression.
