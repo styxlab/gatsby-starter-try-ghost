@@ -6503,10 +6503,17 @@ gatsby-theme-ghost-dark-mode@^1.2.0:
   dependencies:
     "@babel/runtime" "^7.9.2"
 
-gatsby-theme-try-ghost@^1.17.0:
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.17.0.tgz#a5b47515610f5471d56b6e4f40fb6485917ada7f"
-  integrity sha512-6pB7G7eKeMmCav30TKZUWkS9o7OwgRxUh2hrYMo+K27hlizxX4+nfvfYMvPl+eAjYwtohf8A1T6W8R0deC6DKQ==
+gatsby-theme-ghost-members@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-members/-/gatsby-theme-ghost-members-1.1.0.tgz#f8792e9673f4e0dd56f16a80e54d429f00391bae"
+  integrity sha512-HBmCwONbBVG/KIb9KzQAzHQHlKzRLKpPhZQ2Z8HNOIfxbN3ph5q8ojpuDqgur4xo9Tsgk9VXG2z8wzzN0s1BWw==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
+
+gatsby-theme-try-ghost@^1.17.1:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.17.1.tgz#87a67905318ee1a8ae18287d0e5c4c19a2252b44"
+  integrity sha512-a4peVWhWDKbIC8PWNRVQ5vneYTWfRyB0yMfa6gEvhz/UhvG/6fVTRnwy1iyG/rm03hKgCExPhhc0deCQi9Xj/w==
   dependencies:
     "@tryghost/helpers" "^1.1.27"
     "@tryghost/url-utils" "^0.6.18"
