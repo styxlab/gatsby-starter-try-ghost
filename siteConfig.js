@@ -1,6 +1,6 @@
 module.exports = {
     // Do not include a trailing slash!
-    siteUrl: `https://styxlab.github.io`,
+    siteUrl: `https://www.jamify.org`,
 
     // Maximum number of post shown per page
     // With Infinite Scroll this is the chunk of posts fetched when scrolling down
