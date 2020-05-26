@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-try-ghost",
   "description": "Turn your Ghost blog into a flaring fast static site with Gatsby",
-  "version": "1.17.7",
+  "version": "1.17.8",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -22,7 +22,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "config": "git update-index --skip-worktree .ghost.json",
-    "deploy": "gatsby build && gh-pages -d public -b master -r git@github.com:styxlab/styxlab.github.io"
+    "deploy": "gatsby build && echo 'demo.jamify.org' > public/CNAME && gh-pages -d public -b master -r git@github.com:styxlab/styxlab.github.io"
   },
   "dependencies": {
     "gatsby": "2.21.1",
