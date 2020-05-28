@@ -14,7 +14,7 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 
 ## Demo
 
->Play with the [Demo](https://styxlab.github.io) to get a first impression.
+>Play with the [Demo](https://demo.jamify.org/) to get a first impression.
 
 
 [![gatsby-starter-try-ghost](https://static.gotsby.org/v1/assets/images/jamify-demo.png)](https://styxlab.github.io) 
