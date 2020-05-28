@@ -118,6 +118,9 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
         backgroundColor: `#e9e9e9`,
         themeColor: `#15171A`,
 
+        // Select inline texts based on your locale
+        locale: `en`,
+        
         // Overwrite navigation menu (default: []), label is case sensitive
         // overwriteGhostNavigation: [{ label: `Home`, url: `/` }],
     }

@@ -21,4 +21,7 @@ module.exports = {
     siteIcon: `favicon.png`,
     backgroundColor: `#e9e9e9`,
     themeColor: `#15171A`,
+
+    // Select inline texts based on your locale
+    locale: `en`,
 }
