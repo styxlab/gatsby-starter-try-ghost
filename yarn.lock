@@ -6581,18 +6581,18 @@ gatsby-theme-ghost-dark-mode@^1.4.0:
   dependencies:
     "@babel/runtime" "^7.9.2"
 
-gatsby-theme-ghost-members@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-members/-/gatsby-theme-ghost-members-1.2.2.tgz#55107f4f284e623a120421c0226a3ff1c11528da"
-  integrity sha512-BL8xNOkztN/eXP8B4WPui8NYgo7dYSVTeons5t5WScOT0Ph5bEeOHA2KTLRGlcoiegEd3Weu51j1DVTA8X4ZiA==
+gatsby-theme-ghost-members@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-members/-/gatsby-theme-ghost-members-1.2.3.tgz#c18f61ff00c371e5d170b51f733689f682658f38"
+  integrity sha512-Lp1ekYho64kov9hgO3qjQCWZl9KIVULVlHgzOvsVN6HkBn2ajWAawyvmUx6Ih2O6IAe0Fbw3X8k8/q9NSOCWlQ==
   dependencies:
     "@babel/runtime" "^7.9.2"
     styled-components "^5.1.1"
 
-gatsby-theme-try-ghost@^1.20.2:
-  version "1.20.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.20.2.tgz#74e5b17a7d5a3615c9749f892b2f1ea91a195a32"
-  integrity sha512-tazcPtenbDX4/A9gcK2HUHIJ/hWvDJAfM30ydUb/c/mXpb73gik/fy/PYz6NSeflwnUV/emweD7w/zg6Hs/SXQ==
+gatsby-theme-try-ghost@^1.20.3:
+  version "1.20.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.20.3.tgz#7084a2d829af1bc347949d97adfd9698d853860e"
+  integrity sha512-ESeG0nZwGUPR5OZJ0u7pKgYYOSlmpvoSduAc0/agZHpvnH4Jqukcbowd4I8v9Zs3795N/jXQQfuQKXCenL3mGQ==
   dependencies:
     "@tryghost/helpers" "^1.1.27"
     "@tryghost/url-utils" "^0.6.18"
@@ -6899,10 +6899,10 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-2.2.0.tgz#74ebeaca8d2b9a11279dcbd4a39ddfff3e6caa24"
-  integrity sha512-c+yPkNOPMFGNisYg9r4qvsMIjVYikJv7ImFOhPIVPt0+AcRUamZ7zkGRLHz7FKB0xrlZ+ddSOJsZv9XAFVXLmA==
+gh-pages@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-3.0.0.tgz#65f3ccd424bfbc7906f31c4bdb524a1147fa8da2"
+  integrity sha512-oaOfVcrSwnqoWUgZ6cmCDM6mUuWyOSG+SHjqxGBawN0F3SKaF5NwbeYDG+w2RNXO2HJ/5Iam4o7dP5NAtoHuwQ==
   dependencies:
     async "^2.6.1"
     commander "^2.18.0"
