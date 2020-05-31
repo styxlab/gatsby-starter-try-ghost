@@ -6589,10 +6589,10 @@ gatsby-theme-ghost-members@^1.2.3:
     "@babel/runtime" "^7.9.2"
     styled-components "^5.1.1"
 
-gatsby-theme-try-ghost@^1.20.3:
-  version "1.20.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.20.3.tgz#7084a2d829af1bc347949d97adfd9698d853860e"
-  integrity sha512-ESeG0nZwGUPR5OZJ0u7pKgYYOSlmpvoSduAc0/agZHpvnH4Jqukcbowd4I8v9Zs3795N/jXQQfuQKXCenL3mGQ==
+gatsby-theme-try-ghost@^1.21.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.21.0.tgz#d279647c310c466dfae16f818a1d57b992b0fb30"
+  integrity sha512-fHn0tSQ28m1a8kKSR2CHl80AM84m8s3LIzq58OUDRf6XW52A9dYk0MvE3R8QHSKumzkp8m6uz+I/+dcB0S0kSA==
   dependencies:
     "@tryghost/helpers" "^1.1.27"
     "@tryghost/url-utils" "^0.6.18"

@@ -118,6 +118,9 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
         backgroundColor: `#e9e9e9`,
         themeColor: `#15171A`,
 
+        // Include Gatsby images for lazy loading and image optimizations (default: true)
+        gatsbyImages: true,
+
         // Overwrite navigation menu (default: []), label is case sensitive
         // overwriteGhostNavigation: [{ label: `Home`, url: `/` }],
     }
