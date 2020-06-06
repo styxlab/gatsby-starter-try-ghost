@@ -35,7 +35,7 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 - Fully responsive
 - Advanced routing 🆕
 - Composable and extensible
-
+- Incremental build enabled 🚀 🆕 
 
 ## Performance
 
