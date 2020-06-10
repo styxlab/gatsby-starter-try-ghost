@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-try-ghost",
   "description": "Turn your Ghost blog into a flaring fast static site with Gatsby",
-  "version": "1.28.3",
+  "version": "1.29.0",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -34,8 +34,8 @@
     "gatsby-rehype-prismjs": "^1.0.2",
     "gatsby-theme-ghost-dark-mode": "^1.4.4",
     "gatsby-theme-ghost-members": "^1.2.6",
-    "gatsby-theme-try-ghost": "^1.28.2",
-    "gatsby-transformer-rehype": "^1.4.4",
+    "gatsby-theme-try-ghost": "^1.29.0",
+    "gatsby-transformer-rehype": "^1.5.0",
     "prismjs": "^1.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
