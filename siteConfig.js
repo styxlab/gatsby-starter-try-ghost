@@ -2,9 +2,12 @@ module.exports = {
     // Do not include a trailing slash!
     siteUrl: `https://demo.jamify.org`,
 
-    // Maximum number of post shown per page
-    // With Infinite Scroll this is the chunk of posts fetched when scrolling down
-    postsPerPage: 3,
+    // Enable infinite scroll (default: true)
+    infiniteScroll: true,
+
+    // Initial number fetched, scrolling lazy loads posts one by one
+    // If infinite scroll is disabled: maximum number of post shown per page
+    postsPerPage: 4,
 
     // This allows an alternative site title for meta data for pages.
     siteTitleMeta: `Gatsby Starter Ghost CMS`,
