@@ -7,7 +7,7 @@ module.exports = {
 
     // Initial number fetched, scrolling lazy loads posts one by one
     // If infinite scroll is disabled: maximum number of post shown per page
-    postsPerPage: 4,
+    postsPerPage: 3,
 
     // This allows an alternative site title for meta data for pages.
     siteTitleMeta: `Gatsby Starter Ghost CMS`,
@@ -25,5 +25,9 @@ module.exports = {
     backgroundColor: `#e9e9e9`,
     themeColor: `#15171A`,
 
+    // Include Gatsby images for lazy loading and image optimizations
     gatsbyImages: true,
+
+    // Show more logs for debugging purposes (default: false)
+    verbose: false,
 }
