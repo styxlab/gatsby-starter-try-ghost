@@ -30,4 +30,7 @@ module.exports = {
 
     // Show more logs for debugging purposes (default: false)
     verbose: false,
+
+    // Severity for verbose mode: (`info`, `warn`, `error`)
+    severity: `info`,
 }
