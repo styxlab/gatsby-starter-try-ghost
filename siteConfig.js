@@ -33,4 +33,7 @@ module.exports = {
 
     // Severity for verbose mode: (`info`, `warn`, `error`)
     severity: `info`,
+
+    // External URL for serving images, videos and other media (e.g. `https://media.jamify.org`)
+    mediaUrl: null,
 }
