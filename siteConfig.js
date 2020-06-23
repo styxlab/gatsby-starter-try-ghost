@@ -35,5 +35,5 @@ module.exports = {
     severity: `info`,
 
     // External URL for serving images, videos and other media (e.g. `https://media.jamify.org`)
-    mediaUrl: null,
+    mediaUrl: ``,
 }
