@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-try-ghost",
   "description": "Turn your Ghost blog into a flaring fast static site with Gatsby",
-  "version": "1.37.0",
+  "version": "1.37.1",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -31,6 +31,7 @@
     "gatsby": "^2.23.11",
     "gatsby-plugin-ackee-tracker": "^1.4.0",
     "gatsby-plugin-netlify": "^2.3.7",
+    "gatsby-plugin-preload-link-crossorigin": "^1.0.2",
     "gatsby-rehype-ghost-links": "^1.5.0",
     "gatsby-rehype-prismjs": "^1.1.1",
     "gatsby-theme-ghost-dark-mode": "^1.5.1",
