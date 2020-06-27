@@ -40,6 +40,7 @@ try {
 module.exports = {
     plugins: [
         `gatsby-plugin-netlify`,
+        `gatsby-plugin-preload-link-crossorigin`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
