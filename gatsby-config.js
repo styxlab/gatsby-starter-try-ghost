@@ -2,6 +2,7 @@ const path = require(`path`)
 
 let siteConfig
 let ghostConfig
+let mediaConfig
 let routesConfig
 
 try {
@@ -9,6 +10,13 @@ try {
 } catch (e) {
     siteConfig = null
 }
+
+try {
+    mediaConfig = require(`./mediaConfig`)
+} catch (e) {
+    mediaConfig = null
+}
+
 
 try {
     routesConfig = require(`./routesConfig`)
@@ -53,6 +61,7 @@ module.exports = {
             options: {
                 ghostConfig: ghostConfig,
                 siteConfig: siteConfig,
+                mediaConfig: mediaConfig,
                 routes: routesConfig,
             },
         },
