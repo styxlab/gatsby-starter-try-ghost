@@ -7,7 +7,8 @@ module.exports = {
     gatsbyImageLoading: `lazy`,
 
     // Fading in transition (default: true)
-    gatsbyImageFadeIn: true,
+    // true negatively impacts Lighthouse LCP
+    gatsbyImageFadeIn: false,
 
     // External URL for serving images, videos and other media
     mediaUrl: ``,
