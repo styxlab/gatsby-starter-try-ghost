@@ -46,6 +46,7 @@ try {
 
 module.exports = {
     plugins: [
+        `gatsby-plugin-preact`,
         `gatsby-plugin-netlify`,
         {
             resolve: `gatsby-source-filesystem`,
