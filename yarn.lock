@@ -7236,10 +7236,10 @@ gatsby-theme-ghost-members@^1.3.1:
     "@babel/runtime" "^7.10.3"
     styled-components "^5.1.1"
 
-gatsby-theme-try-ghost@^1.37.0:
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.37.0.tgz#7a2187a22f863988125b2c4767a4ef9ba6b9e46c"
-  integrity sha512-jpzNLtGo7x3oNM9XocQ2Rn/MS6ZcCRuQofqhNv8pjHbFrPnTTYtY9UwsxPliGUxTEncTNJEJ5hnDIxxoOPgKfw==
+gatsby-theme-try-ghost@^1.37.3:
+  version "1.37.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.37.3.tgz#2dab06e6bd6103dfa2b824bcea01a326d96aefab"
+  integrity sha512-lmx89HDlJrUl3HAil58S7dWHAfSSVI8xPJPoLMI68449oRnieQgPOelf4BS3bXkbSjmGp6qeGQeDJ8LyTzTNmw==
   dependencies:
     "@tryghost/helpers" "^1.1.27"
     "@tryghost/url-utils" "^0.6.18"
@@ -7259,6 +7259,7 @@ gatsby-theme-try-ghost@^1.37.0:
     gatsby-plugin-manifest "^2.4.14"
     gatsby-plugin-offline "^3.2.13"
     gatsby-plugin-postcss "^2.3.6"
+    gatsby-plugin-preload-link-crossorigin "^1.0.2"
     gatsby-plugin-react-helmet "^3.3.6"
     gatsby-plugin-sharp "^2.6.14"
     gatsby-plugin-styled-components "^3.3.6"
