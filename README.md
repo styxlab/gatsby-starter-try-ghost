@@ -14,6 +14,7 @@ A [Gatsby](https://www.gatsbyjs.org/) starter for creating blogs from headless [
 
 Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring an enhanced Ghost Casper look and feel. All content is sourced from a headless Ghost CMS.
 
+&nbsp;
 
 ## 🎓 Tutorials
 
