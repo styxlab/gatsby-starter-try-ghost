@@ -7,12 +7,12 @@ A Gatsby starter for creating blogs from headless [Ghost CMS](https://ghost.org/
 Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a front-end replacement of the Ghost Handlebars engine featuring the standard Ghost Casper skin and functionality. All content is sourced from a headless Ghost CMS.
 
 
-## Tutorials ✨ 🆕
+## 🎓 Tutorials
 
 >Check out the [Tutorials](https://www.jamify.org) for practical guides on using this project.
 
 
-## Demo
+## 🎉 Demo
 
 >Play with the [Demo](https://demo.jamify.org/) to get a first impression.
 
@@ -22,7 +22,7 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 &nbsp;
 
 
-## Features
+## ✨ Features
 
 - Ghost Casper look and feel
 - Images with [lazy-loading and blur-up effect](https://using-gatsby-image.gatsbyjs.org/) 🚀 🆕
@@ -37,11 +37,11 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 - Composable and extensible
 - Incremental build enabled 🚀 🆕 
 
-## Performance
+## 🚀 Performance
 
 ![Lighthouse Score](https://static.gotsby.org/v1/assets/images/jamify-lighthouse.png)
 
-## Included Plugins
+## 📦 Included Plugins
 
 The following plugins have been included for convenience:
 
@@ -56,7 +56,7 @@ The following plugins have been included for convenience:
 If you don't need them, you can take them out in `gatsby-config.js` and `package.json` which may save you some time during the build process.
 
 
-## More Plugins
+## 🔥 More Plugins
 
 Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with [`gatsby-starter-try-ghost`](https://github.com/styxlab/gatsby-starter-try-ghost):
 
@@ -70,7 +70,7 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
 | [`gatsby-plugin-google-analytics`](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-analytics) | [![version](https://badgen.net/npm/v/gatsby-plugin-google-analytics)](https://www.npmjs.com/package/gatsby-plugin-google-analytics) | Site tracking with [Google Analytics](https://developers.google.com/analytics) |
 
 
-## Getting Started
+## 🏁 Getting Started
 
 1. Install this starter by running
 
@@ -91,7 +91,7 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
     ```
     and visit your site at `http://localhost:8000`.
 
-## Configure
+## 💡 Configure
 
 ```js
     //siteConfig.js
@@ -126,7 +126,7 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
 In the configuration shown above, the most important fields to be changed are `siteUrl`, `siteTitleMeta` and `siteDescriptionMeta`. Update at least those to fit your needs.
 
 
-## Ghost Content API keys
+## 🔑 Ghost Content API keys
 
 All content is sourced from a Ghost CMS. By default, content is fetched from the demo location at `https://cms.gotsby.org`. Surely you want to source your own content. In your base directory `try-ghost`, add a new file `.ghost.json` that contains the following JSON structure:
 
@@ -146,23 +146,17 @@ All content is sourced from a Ghost CMS. By default, content is fetched from the
 
 Change the url and keys to match your own Ghost CMS Content API keys.
 
-## Deploy
+## 💫 Deploy
 
-```bash
-    gatsby build
-```
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/styxlab/gatsby-starter-try-ghost)
 
-After completion of the build process your static site can be found in the `public/` folder. Copy those files over to your webserver.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/styxlab/gatsby-starter-try-ghost)
 
-## Deploy on Gatsby Cloud
-
-Fork `gatsby-starter-try-ghost` in GitHub. After logging into Gatsby Cloud make sure Gatsby Cloud has access rights to your forked repository. Select *I already have a Gatsby Site* and then pick *gatsby-starter-try-ghost*. Skip integrations. For a first test also skip content keys. The build should start immediately and show the demo site. Provide content keys in order to source in your own content from Ghost CMS.
-
-## Ensure headless mode of Ghost CMS
+## 🤯 Ensure headless mode of Ghost CMS
 
 For best SEO results it is strongly recommended to disable the default Ghost Handlebars theme front-end by selecting the *Make this site private* flag within your Ghost admin settings. This enables password protection in front of the Ghost install and sets `<meta name="robots" content="noindex" />` so your Gatsby front-end becomes the authoritative source for search engines.
 
-## Reporting issues
+## 💣 Reporting issues
 
 Please report all bugs and issues at [gatsby-theme-try-ghost/issues](https://github.com/styxlab/gatsby-theme-try-ghost/issues) as all development is happening there.
 
