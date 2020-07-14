@@ -105,6 +105,8 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
     gatsby develop
     ```
     and visit your site at `http://localhost:8000`.
+    
+&nbsp;
 
 ## 💡 Configure
 
