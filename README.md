@@ -186,6 +186,8 @@ Please report all bugs and issues at [gatsby-theme-try-ghost/issues](https://git
 
 &nbsp;
 
+> This project is not affiliated with [`gatsby-starter-ghost`](https://github.com/TryGhost/gatsby-starter-ghost) or [Ghost](https://ghost.org/).
+
 # Copyright & License
 
 Copyright (c) 2020 styxlab - Released under the [MIT license](LICENSE).
