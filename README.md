@@ -188,7 +188,7 @@ Please report all bugs and issues at [gatsby-theme-try-ghost/issues](https://git
 
 ## 🧐 Disclaimer
 
-This project is not affiliated with [`gatsby-starter-ghost`](https://github.com/TryGhost/gatsby-starter-ghost) or [Ghost](https://ghost.org/).
+This project is not affiliated with [Ghost](https://ghost.org/).
 
 &nbsp;
 
