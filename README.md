@@ -146,7 +146,21 @@ In the configuration shown above, the most important fields to be changed are `s
 
 ## 🔑 Ghost Content API keys
 
-All content is sourced from a Ghost CMS. By default, content is fetched from the demo location at `https://cms.gotsby.org`. Surely you want to source your own content. In your base directory `try-ghost`, add a new file `.ghost.json` that contains the following JSON structure:
+All content is sourced from a Ghost CMS. By default, content is fetched from the demo location at `https://cms.gotsby.org`. Surely you want to source your own content. There are two ways to make your content keys available. Choose the method according to your build scenario.
+
+### Building with cloud providers
+
+If you build your project with a cloud provider (e.g. Gatsby, Netlify, Vercel), the best option is to provide the keys with environment variables:
+
+| Key | Value |
+| GHOST_API_URL | http://localhost:2368 |
+| GHOST_CONTENT_API_KEY | 9fccdb0e4ea5b572e2e5b92942 |
+
+The place where you can define them depends on the provider, but you usually find the option under the site settings. This avoids publishing keys in a public repository and is most secure.
+
+### Building locally
+
+If you build locally or on a private network where the build directory is not accessible to the world, you can safely add a new `.ghost.json` file in your base directory `try-ghost` that contains the following JSON structure:
 
 ```bash
 
@@ -162,7 +176,7 @@ All content is sourced from a Ghost CMS. By default, content is fetched from the
     }
 ```
 
-Change the url and keys to match your own Ghost CMS Content API keys.
+This file is part of `.gitignore` to avoid accidentally publishing this file to your public repository. Change the url and keys to match your own Ghost CMS Content API keys.
 
 &nbsp;
 
