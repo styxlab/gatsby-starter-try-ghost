@@ -161,7 +161,7 @@ The place where you can define them depends on the provider, but you usually fin
 
 ### Building locally
 
-If you build locally or on a private network where the build directory is not accessible to the world, you can safely add a new `.ghost.json` file in your base directory `try-ghost` that contains the following JSON structure:
+If you build locally or on a private network where the build directory is not accessible to the world, you can safely add a new `.ghost.json` file in your base directory with the following JSON structure:
 
 ```bash
 
@@ -177,7 +177,7 @@ If you build locally or on a private network where the build directory is not ac
     }
 ```
 
-This file is part of `.gitignore` to avoid accidentally publishing this file to your public repository. Change the url and keys to match your own Ghost CMS Content API keys.
+This file is part of `.gitignore` to avoid accidentally publishing it to your public repository. Change the `apiUrl` and `contentApiKey` to match your own Ghost CMS Content API keys.
 
 &nbsp;
 
