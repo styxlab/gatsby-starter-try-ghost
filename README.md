@@ -152,7 +152,7 @@ All content is sourced from a Ghost CMS. By default, content is fetched from the
 
 If you build your project with a cloud provider (e.g. Gatsby, Netlify, Vercel), the best option is to provide the keys with environment variables:
 
-| Key | Value |
+| Key | Value (example) |
 | ----| ----- |
 | GHOST_API_URL | http:\/\/localhost:2368 |
 | GHOST_CONTENT_API_KEY | 9fccdb0e4ea5b572e2e5b92942 |
