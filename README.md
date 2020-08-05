@@ -154,7 +154,7 @@ If you build your project with a cloud provider (e.g. Gatsby, Netlify, Vercel), 
 
 | Key | Value |
 | ----| ----- |
-| GHOST_API_URL | http://localhost:2368 |
+| GHOST_API_URL | http:\/\/localhost:2368 |
 | GHOST_CONTENT_API_KEY | 9fccdb0e4ea5b572e2e5b92942 |
 
 The place where you can define them depends on the provider, but you usually find the option under the site settings. This avoids publishing keys in a public repository and is most secure.
