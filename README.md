@@ -203,7 +203,7 @@ Please report all bugs and issues at [gatsby-theme-try-ghost/issues](https://git
 
 ## 🧐 Disclaimer
 
-This project is not affiliated with [Ghost](https://ghost.org/).
+This project is not affiliated with [Gatsby](https://www.gatsbyjs.org/) or [Ghost](https://ghost.org/).
 
 &nbsp;
 
