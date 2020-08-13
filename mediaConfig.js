@@ -10,7 +10,4 @@ module.exports = {
     // true negatively impacts Lighthouse 6 LCP score
     gatsbyImageFadeIn: true,
 
-    // External URL for serving images, videos and other media
-    mediaUrl: ``,
-
 }
