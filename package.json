@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-try-ghost",
   "description": "Turn your Ghost blog into a flaring fast static site with Gatsby",
-  "version": "1.45.0",
+  "version": "1.45.1",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -28,17 +28,17 @@
     "deploy": "gatsby build && echo 'demo.jamify.org' > public/CNAME && gh-pages -f -d public -b master -r git@github.com:styxlab/styxlab.github.io"
   },
   "dependencies": {
-    "gatsby": "^2.24.54",
-    "gatsby-plugin-ackee-tracker": "^1.4.0",
-    "gatsby-plugin-netlify": "^2.3.14",
-    "gatsby-plugin-preact": "^4.0.10",
+    "gatsby": "^2.24.66",
+    "gatsby-plugin-ackee-tracker": "^2.0.1",
+    "gatsby-plugin-netlify": "^2.3.16",
+    "gatsby-plugin-preact": "^4.0.13",
     "gatsby-rehype-ghost-links": "^1.6.0",
     "gatsby-rehype-prismjs": "^1.2.0",
     "gatsby-theme-ghost-dark-mode": "^1.6.0",
     "gatsby-theme-ghost-members": "^1.4.0",
-    "gatsby-theme-try-ghost": "^1.45.0",
+    "gatsby-theme-try-ghost": "^1.45.1",
     "gatsby-transformer-rehype": "^1.9.0",
-    "preact": "^10.4.8",
+    "preact": "^10.5.3",
     "preact-render-to-string": "^5.1.10",
     "prismjs": "^1.21.0",
     "react": "^16.13.1",
@@ -46,9 +46,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.8.1",
+    "eslint": "^7.10.0",
     "eslint-plugin-ghost": "^1.5.0",
-    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react": "^7.21.2",
     "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
