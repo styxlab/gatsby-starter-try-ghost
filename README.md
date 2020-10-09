@@ -200,6 +200,7 @@ For best SEO results it is strongly recommended to disable the default Ghost Han
 It is recommended to install [npm-upgrade](https://www.npmjs.com/package/npm-upgrade) with `sudo npm install npm-upgrade -g`. Change into the base directory and update all packages with:
 
     ```bash
+    
     cd try-ghost
     npm-upgrade
     ```
@@ -207,6 +208,7 @@ It is recommended to install [npm-upgrade](https://www.npmjs.com/package/npm-upg
 You will be prompted to update all packages within your `package.json` file. Next, download the new packages:
 
     ```bash
+    
     yarn
     yarn clean
     ```
