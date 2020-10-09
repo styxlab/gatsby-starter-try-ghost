@@ -102,7 +102,7 @@ Additional features can be integrated by installing Gatsby themes or plugins. Th
 3. Run
 
     ```bash
-    gatsby develop
+    yarn develop
     ```
     and visit your site at `http://localhost:8000`.
     
@@ -192,6 +192,25 @@ For best SEO results it is strongly recommended to disable the default Ghost Han
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/styxlab/gatsby-starter-try-ghost)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/styxlab/gatsby-starter-try-ghost)
+
+&nbsp;
+
+## 🔧 Update
+
+It is recommended to install [npm-upgrade](https://www.npmjs.com/package/npm-upgrade) with `sudo npm install npm-upgrade -g`. Change into the base directory and update all packages with:
+
+    ```bash
+    cd try-ghost
+    npm-upgrade
+    ```
+
+You will be prompted to update all packages within your `package.json` file. Next, download the new packages:
+
+    ```bash
+    yarn
+    yarn clean
+    ```
+The update process is now complete and you can start a new build with `yarn build` (or `yarn develop`).
 
 &nbsp;
 
