@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.jamify.org">
-    <img alt="Jamify" src="https://avatars1.githubusercontent.com/u/66115190?s=200&v=4" />
+    <img alt="Jamify" src="https://avatars0.githubusercontent.com/u/73162720?s=200&v=4" />
   </a>
 </p>
 <h1 align="center">
