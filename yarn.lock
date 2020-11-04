@@ -6798,25 +6798,25 @@ gatsby-telemetry@^1.3.40:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-ghost-dark-mode@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-dark-mode/-/gatsby-theme-ghost-dark-mode-1.7.0.tgz#40d48c375e9fd5f9e5197c7063bf06e1c9a5b446"
-  integrity sha512-PW07ygsc7hEi1g9Lfps82XZUAkFbq5WAT9fYgoibo7lsR8XWcn9X2SBTCQwRkMBQWpzHX68eOvwlMvez2gJcsQ==
+gatsby-theme-ghost-dark-mode@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-dark-mode/-/gatsby-theme-ghost-dark-mode-1.8.0.tgz#aeac670402265d762704df42c59430cc234262c1"
+  integrity sha512-muhRRNo0krzTcJubigI0gEUqaRB3T+lMDUm9qJGgxDXXDOJmZBRdCx0ggFdy04tr4rZUR8uD1+29+3hK7WntjA==
   dependencies:
     "@babel/runtime" "^7.12.1"
 
-gatsby-theme-ghost-members@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-members/-/gatsby-theme-ghost-members-1.4.3.tgz#5416376e7c65e458b2041a9b0869e34e86365f89"
-  integrity sha512-A0Agc/buIxBiCLBuFGmCzMHbWsUOeLcALlAQJwXLEZick1vY0UfGQImh0WSVALIn3IJka6ZCff4ISoqC7pWSZg==
+gatsby-theme-ghost-members@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-ghost-members/-/gatsby-theme-ghost-members-1.5.0.tgz#7dadd4d9fbfba1f5aac8c606230411e8963239d9"
+  integrity sha512-bvzmw4PPmAYMerRAczauAjbu4kxL41K0jMuah147TSYzZQ6QrWpkEKRR+3A9IOM8nN/LiZuH9gRGTKLPtgIteA==
   dependencies:
     "@babel/runtime" "^7.12.1"
     styled-components "^5.2.0"
 
-gatsby-theme-try-ghost@^1.47.1:
-  version "1.47.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.47.1.tgz#f0c528d3672e830e7e529e7d073d382dfd9a4417"
-  integrity sha512-dWEe86SXoeYmH1MlCaAWGbGFxb/PoaDjrX2Khm2xO7m7UMk7P2shTIPB+Thv3JlYxd8NjOmRUkBS/Jzz6G4ljQ==
+gatsby-theme-try-ghost@^1.48.0:
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-try-ghost/-/gatsby-theme-try-ghost-1.48.0.tgz#2750c6f0ae19adf968c951351035b5b69d015c24"
+  integrity sha512-DRMyDnK4N8qC0ky+NGMVi7g8Pzkv+gDf9QCxidFqWfesEpVr2zw2Isc4AXcU1NPKxdYk1sEolgvQQT3AXNpb1Q==
   dependencies:
     "@tryghost/helpers" "^1.1.33"
     "@tryghost/url-utils" "^0.6.22"
