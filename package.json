@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-try-ghost",
   "description": "Turn your Ghost blog into a flaring fast static site with Gatsby",
-  "version": "1.49.0",
+  "version": "1.49.1",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -28,16 +28,16 @@
     "deploy": "gatsby build && echo 'demo.jamify.org' > public/CNAME && gh-pages -f -d public -b master -r git@github.com:styxlab/styxlab.github.io"
   },
   "dependencies": {
-    "gatsby": "^2.25.2",
+    "gatsby": "^2.25.3",
     "gatsby-plugin-ackee-tracker": "^2.0.1",
     "gatsby-plugin-netlify": "^2.4.0",
     "gatsby-plugin-preact": "^4.0.16",
-    "gatsby-rehype-ghost-links": "^1.6.3",
-    "gatsby-rehype-prismjs": "^1.2.3",
-    "gatsby-theme-ghost-dark-mode": "^1.8.2",
-    "gatsby-theme-ghost-members": "^1.5.1",
-    "gatsby-theme-try-ghost": "^1.49.0",
-    "gatsby-transformer-rehype": "^1.9.6",
+    "gatsby-rehype-ghost-links": "^1.6.4",
+    "gatsby-rehype-prismjs": "^1.2.4",
+    "gatsby-theme-ghost-dark-mode": "^1.8.4",
+    "gatsby-theme-ghost-members": "^1.5.3",
+    "gatsby-theme-try-ghost": "^1.49.1",
+    "gatsby-transformer-rehype": "^1.9.7",
     "preact": "^10.5.5",
     "preact-render-to-string": "^5.1.11",
     "prismjs": "^1.22.0",
