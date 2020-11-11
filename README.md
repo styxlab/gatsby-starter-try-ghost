@@ -48,12 +48,6 @@ Check out the [Tutorials](https://www.jamify.org) for practical guides on using 
 
 &nbsp;
 
-## 🚀 Performance
-
-![Lighthouse Score](https://static.gotsby.org/v1/assets/images/jamify-lighthouse.png)
-
-&nbsp;
-
 ## 📦 Included Plugins
 
 The following plugins have been included for convenience:
