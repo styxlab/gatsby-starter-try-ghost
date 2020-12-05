@@ -16,7 +16,7 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 
 &nbsp;
 
-## 🔥 NEWS
+## 🔥 Variants
 
 Favor [Next.js](https://nextjs.org/) over Gatsby? Head over to [next-cms-ghost](https://github.com/styxlab/next-cms-ghost)!
 
