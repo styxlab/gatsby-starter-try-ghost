@@ -16,7 +16,9 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 
 &nbsp;
 
-> **NEW**: Favor [Next.js](https://nextjs.org/) over Gatsby? Head over to [next-cms-ghost](https://github.com/styxlab/next-cms-ghost)!
+## 🔥 NEWS
+
+Favor [Next.js](https://nextjs.org/) over Gatsby? Head over to [next-cms-ghost](https://github.com/styxlab/next-cms-ghost)!
 
 &nbsp;
 
@@ -66,7 +68,7 @@ If you don't need them, you can take them out in `gatsby-config.js` and `package
 
 &nbsp;
 
-## 🔥 More Plugins
+## 🎁 More Plugins
 
 Additional features can be integrated by installing Gatsby themes or plugins. The following plugins have been tested to work with [`gatsby-starter-try-ghost`](https://github.com/styxlab/gatsby-starter-try-ghost):
 
