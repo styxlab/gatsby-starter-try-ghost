@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-try-ghost",
   "description": "Turn your Ghost blog into a flaring fast static site with Gatsby",
-  "version": "1.50.3",
+  "version": "1.50.4",
   "license": "MIT",
   "keywords": [
     "gatsby",
@@ -36,7 +36,7 @@
     "gatsby-rehype-prismjs": "^1.2.5",
     "gatsby-theme-ghost-dark-mode": "^1.8.5",
     "gatsby-theme-ghost-members": "^1.5.5",
-    "gatsby-theme-try-ghost": "^1.49.3",
+    "gatsby-theme-try-ghost": "^1.50.4",
     "gatsby-transformer-rehype": "^1.9.8",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.14.0",
+    "eslint": "^7.15.0",
     "eslint-plugin-ghost": "^2.0.0",
     "eslint-plugin-react": "^7.21.5",
     "gh-pages": "^3.1.0",
