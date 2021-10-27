@@ -16,6 +16,10 @@ Turn your Ghost blog into a flaring fast static website. This Gatsby theme is a 
 
 &nbsp;
 
+## ⚠️ I am no longer actively maintaining this plugin, but PRs for fixes and version updates are most welcome!
+
+&nbsp;
+
 ## 🔥 Alternatives
 
 > Tired of `gatsby-config.js`? Check out [Blogody](https://www.blogody.com) for an integrated solution with many more benefits!
